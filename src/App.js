@@ -100,7 +100,7 @@ const App = () => {
             </GridItem>
             <GridItem colSpan={{ base: 4, sm: 4, md: 4, lg: 1, xl: 1, "2xl": 1 }}>
               <Box backgroundColor={colorMode === "light" ? 'whitesmoke' : 'blackAlpha.600'} borderRadius={10} p={4}>
-                <Heading as='h4' size='md' mt={2} mb={5}>Phân tích Kỹ thuật</Heading>
+                <Heading as='h4' size='md' mt={2} mb={5}>Tâm lí mua bán</Heading>
                 <Select styles={{
                   option: (base) => ({
                     ...base,
